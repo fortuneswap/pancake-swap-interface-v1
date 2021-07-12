@@ -64,7 +64,7 @@ export default function App() {
       setHasSeenModal(true)
     }
     if (!hasSeenModal) {
-      showModal()
+      // showModal()
     }
   }, [onPresentUseV2ExchangeModal, hasSeenModal])
 
@@ -150,7 +150,6 @@ export default function App() {
                   </Web3ReactManager>
                 </BodyWrapper>
               </Menu>
-              <VersionBar />
             </TranslationsContext.Provider>
           </LanguageContext.Provider>
         </AppWrapper>
